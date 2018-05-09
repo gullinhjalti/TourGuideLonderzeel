@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Guide Londerzeel</string>
+    <string name="popular_title">popular</string>
+    <string name="shopping_title">shopping</string>
+    <string name="culture_title">culture</string>
+    <string name="food_drink_title">food &amp; drink</string>
+    <string name="sports_title">sports</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
