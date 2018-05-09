@@ -11,13 +11,13 @@
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="#FFFFFF"
+        app:tabIndicatorColor="@color/tab_indicator"
         app:tabIndicatorHeight="2dp"
-        app:tabMode="fixed"
+        app:tabMode="scrollable"
         app:tabPaddingEnd="12dp"
         app:tabPaddingStart="12dp"
-        app:tabSelectedTextColor="#FFFFFF"
-        app:tabTextColor="#A8A19E"/>
+        app:tabSelectedTextColor="@color/tab_selected_text"
+        app:tabTextColor="@color/tab_text" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"

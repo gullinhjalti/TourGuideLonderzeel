@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:background="#FFFFFF"
@@ -22,11 +23,12 @@
             android:layout_width="match_parent"
             android:layout_height="33dp"
             android:layout_alignParentTop="true"
-            android:padding="8dp"
+            android:padding="4dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="TEST" />
 
         <TextView
             android:id="@+id/descr_text_view"
@@ -34,19 +36,21 @@
             android:layout_height="33dp"
             android:layout_above="@+id/addr_text_view"
             android:layout_below="@+id/name_text_view"
-            android:padding="8dp"
+            android:padding="2dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textSize="14sp"
+            tools:text="Test" />
 
         <TextView
             android:id="@+id/addr_text_view"
             android:layout_width="match_parent"
             android:layout_height="33dp"
             android:layout_alignParentBottom="true"
-            android:padding="8dp"
+            android:padding="2dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textSize="14sp"
+            tools:text="Test" />
     </RelativeLayout>
 </RelativeLayout>
