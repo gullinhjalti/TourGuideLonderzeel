@@ -43,9 +43,6 @@ public class VenueArrayAdapter extends ArrayAdapter<Venue> {
             TextView descTextView = listItemView.findViewById(R.id.descr_text_view);
             descTextView.setText(currentVenue.getVenueDesc());
             descTextView.setBackgroundResource(mBgColor);
-            TextView addrTextView = listItemView.findViewById(R.id.addr_text_view);
-            addrTextView.setText(currentVenue.getVenueAddress());
-            addrTextView.setBackgroundResource(mBgColor);
         }
         return listItemView;
     }

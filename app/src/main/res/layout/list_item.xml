@@ -21,7 +21,7 @@
         <TextView
             android:id="@+id/name_text_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:paddingLeft="6dp"
             android:paddingRight="6dp"
@@ -36,8 +36,7 @@
         <TextView
             android:id="@+id/descr_text_view"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_above="@+id/addr_text_view"
+            android:layout_height="80dp"
             android:layout_below="@+id/name_text_view"
             android:paddingLeft="6dp"
             android:paddingRight="6dp"
@@ -45,17 +44,7 @@
             android:paddingTop="6dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/text_primary"
-            android:textSize="14sp"
-            tools:text="Test" />
-
-        <TextView
-            android:id="@+id/addr_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:padding="6dp"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/text_primary"
             android:textSize="14sp"
             tools:text="Test" />
     </RelativeLayout>
