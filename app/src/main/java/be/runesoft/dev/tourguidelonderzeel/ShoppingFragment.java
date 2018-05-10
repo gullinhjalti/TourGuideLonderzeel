@@ -33,9 +33,9 @@ public class ShoppingFragment extends Fragment {
         venues.add(new Venue(R.drawable.de_passage, "De Passage", "24/7 automated shop. Sells a variety of items such as candy," +
                 " packaged meals and cold beverages.", "Mechelsestraat 58"));
         venues.add(new Venue(R.drawable.de_linde, "Meubelen De Linde", "Furniture store. You'll find furniture for every room and" +
-                "every style.", "Linde 45"));
+                " every style.", "Linde 45"));
         venues.add(new Venue(R.drawable.sarens, "Sarens", "Household appliances. From the kitchen to the garden and back, small and" +
-                "large appliances can be found here.", "Mechelsestraat 31"));
+                " large appliances can be found here.", "Mechelsestraat 31"));
         venues.add(new Venue(R.drawable.colruyt, "Colruyt", "Supermarket. Offering everything a supermarket should, at great value.", "Molenstraat 39"));
         venues.add(new Venue(R.drawable.top_office, "Top Office Shop", "Office supply store. Offers pens, paper, printing and copying" +
                 " facilities and office furniture.", "Molenstraat 11"));
