@@ -1,12 +1,15 @@
 package be.runesoft.dev.tourguidelonderzeel;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -51,7 +54,28 @@ public class ShoppingFragment extends Fragment {
 
         listView.setAdapter(venueArrayAdapter);
 
+        //when an item is clicked we should get a map with a marker for the venue
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Venue venue = venues.get(position);
+                String venueAdd = venue.getVenueAddress() + ", Londerzeel, Belgium";
+                venueAdd = Uri.encode(venueAdd);
+                Uri geo = Uri.parse("geo:0,0?q=" + venueAdd);
+                showMap(geo);
+            }
+        });
+
         return rootView;
+    }
+
+    public void showMap(Uri geoLocation) {
+        //TODO: Get this to run in a Map Activity in stead of the Maps app
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(geoLocation);
+        if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
 }
