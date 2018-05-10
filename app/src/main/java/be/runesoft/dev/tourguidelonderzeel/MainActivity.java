@@ -1,11 +1,14 @@
 package be.runesoft.dev.tourguidelonderzeel;
 
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String EXTRA_VENUE_ADDRESS = "be.runesoft.dev.tourguidelonderzeel.VENUE_ADDRESS";
+    public static final String EXTRA_VENUE_NAME = "be.runesoft.dev.tourguidelonderzeel.VENUE_NAME";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
