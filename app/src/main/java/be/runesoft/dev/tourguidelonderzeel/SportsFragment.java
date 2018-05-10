@@ -31,8 +31,8 @@ public class SportsFragment extends Fragment {
 
         final ArrayList<Venue> venues = new ArrayList<>();
 
-        //add venues here
-        venues.add(new Venue(R.drawable.de_passage, "De Passage", "24/7 automated shop.", "Mechelsestraat 58"));
+        //TODO: add venues here
+        venues.add(new Venue(R.drawable.sweet_vanilla, "Sweet Vanilla", "Ice cream, waffles, crepes,... €€", "Markt 17"));
 
         ListView listView = rootView.findViewById(R.id.list);
 

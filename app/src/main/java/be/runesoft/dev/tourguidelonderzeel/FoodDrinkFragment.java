@@ -32,7 +32,15 @@ public class FoodDrinkFragment extends Fragment {
         final ArrayList<Venue> venues = new ArrayList<>();
 
         //add venues here
-        venues.add(new Venue(R.drawable.de_passage, "De Passage", "24/7 automated shop.", "Mechelsestraat 58"));
+        venues.add(new Venue(R.drawable.depalm, "Café De Palm", "A hip bar in the heart of Londerzeel with a terrace and view of the market square. €€", "Markt 28"));
+        venues.add(new Venue(R.drawable.tschuurke, "Brasserie 't Schuurke", "Simple Flemish dishes in a rustic setting. €€", "Leopold Van Hoeymissenstraat 34"));
+        venues.add(new Venue(R.drawable.cafe_sintjozef, "Café Sint Jozef", "The most authentic Flemish café you'll find. €", "Sint-Jozefstraat 40"));
+        venues.add(new Venue(R.drawable.bellavista, "Bella Vista", "Italian restaurant with an authentic look, feel and, most important, taste. €€€.", "Molenhoek 21"));
+        venues.add(new Venue(R.drawable.bij_plekker, "Bij Plekker", "A modern pub with a friendly, welcoming atmosphere. €", "Breendonkstraat 96"));
+        venues.add(new Venue(R.drawable.brouwershuis, "'t Brouwershuis", "A more 'chique' experience with Belgian and European quisines. €€€", "Sint-Niklaasstraat 2"));
+        venues.add(new Venue(R.drawable.bergbos, "Bergbos", "Bar and party room. €€", "Bergkapelstraat 55"));
+        venues.add(new Venue(R.drawable.leireken, "Bistro Leireken", "A very unique little bistro in an repurposed train. €€", "Brouwerijstraat 29"));
+
 
         ListView listView = rootView.findViewById(R.id.list);
 
