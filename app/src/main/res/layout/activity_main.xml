@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabIndicatorColor="@color/tab_indicator"
+        android:background="@color/colorPrimary"
         app:tabIndicatorHeight="2dp"
         app:tabMode="scrollable"
         app:tabPaddingEnd="12dp"

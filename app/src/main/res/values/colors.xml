@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#4A312A</color>
-    <color name="colorPrimaryDark">#2F1D1A</color>
-    <color name="background">#FFF7DA</color>
-    <color name="category_popular">#FD8E09</color>
-    <color name="category_shopping">#379237</color>
-    <color name="category_culture">#8800A0</color>
-    <color name="category_food_drink">#16AFCA</color>
-    <color name="category_sport">#16AFCA</color>
-    <color name="tab_indicator">#FFFFFF</color>
-    <color name="tab_selected_text">#A8A19E</color>
-    <color name="tab_text">#000000</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="background">#FFECB3</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="list_item">#FFEB3B</color>
+    <color name="tab_indicator">#FFECB3</color>
+    <color name="tab_selected_text">#FFECB3</color>
+    <color name="tab_text">#757575</color>
 </resources>
