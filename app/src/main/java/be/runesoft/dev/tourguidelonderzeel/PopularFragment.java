@@ -30,7 +30,8 @@ public class PopularFragment extends Fragment {
         final ArrayList<Venue> venues = new ArrayList<>();
 
         //add venues here
-        venues.add(new Venue(R.drawable.de_passage, "De Passage", "24/7 automated shop.", "Mechelsestraat 58"));
+        venues.add(new Venue(R.drawable.de_passage, "De Passage", "24/7 automated shop. Sells a variety of items such as candy," +
+                " packaged meals and cold beverages.", "Mechelsestraat 58"));
 
 
         ListView listView = rootView.findViewById(R.id.list);
