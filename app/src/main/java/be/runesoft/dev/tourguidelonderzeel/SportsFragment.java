@@ -31,8 +31,15 @@ public class SportsFragment extends Fragment {
 
         final ArrayList<Venue> venues = new ArrayList<>();
 
-        //TODO: add venues here
-        venues.add(new Venue(R.drawable.sweet_vanilla, "Sweet Vanilla", "Ice cream, waffles, crepes,... €€", "Markt 17", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.fitality, "Fitality", "Gym and bar. Provides lessons, free and guided workouts. ", "Blauwenhoek 78", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.liggende_wip, "Bergbos-Bergop-De-Kring", "Archery club, shooting for ranged targets at 17 meters (so-called 'liggende wip').", "Bergkapelstraat 55", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.judo, "Judoclub Kumikata", "Judo dojo, training by Bart Van Eynde sensei.", "Linde 60", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.smash, "TC Smash vzw", "Tennis club with several courts. Frequent tourneys ae held for all ages.", "Holle Eikstraat 2", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.celle, "Muay Thai Gym Celle", "Thai boxing gym. trainings are held in the back of café De Palm", "Markt 28", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.staande_wip, "Schuttersvrienden Londerzeel", "Archery club, shooting for raised targets at 28 meters (so-called 'staande wip').", "Markt 17", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.fc_sint_jozef, "FC Sint-Jozef", "Local football club.", "Meerstraat 318", getResources().getString(R.string.placeholder_long)));
+        venues.add(new Venue(R.drawable.karate, "Karate Blancke", "Karate dojo, training by Hedwig Blancke sensei.", "Kloosterstraat 36", getResources().getString(R.string.placeholder_long)));
+
 
         ListView listView = rootView.findViewById(R.id.list);
 
