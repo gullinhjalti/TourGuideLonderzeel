@@ -24,5 +24,3 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 }
-
-//TODO: when backing out from the MapsActivity we should land on the correct category and not on the default one.
