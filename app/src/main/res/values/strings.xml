@@ -7,4 +7,27 @@
     <string name="sports_title">sports</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBtXNM38DmzMVyBIskri7aHlb1fb9CTeGA</string>
     <string name="title_activity_maps">Map</string>
+    <string name="chevron_up">expand venue description</string>
+    <string name="chevron_down">collapse venue description</string>
+
+    <string name="placeholder_long">
+        <![CDATA[
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam quis magna sit amet arcu porta euismod. Praesent vestibulum
+        vel magna et scelerisque. Vestibulum ultricies fringilla nunc placerat sagittis.
+        Sed quis leo a sapien dictum aliquet.</p><p>Phasellus quis hendrerit sem. Ut libero nunc,
+        lobortis at aliquam a, aliquet vitae lorem. Quisque in ultrices odio. Suspendisse
+        neque mauris, congue et eros vestibulum, facilisis pharetra purus. Morbi vitae
+        ligula nec lectus vulputate lacinia. Morbi id nibh at massa faucibus vulputate.
+        Ut imperdiet mauris ut elit efficitur, sagittis vehicula ligula dictum.</p><p>Proin purus dui,
+        varius in dignissim at, hendrerit nec lectus. Sed leo tellus, mollis in pretium et,
+        lacinia sit amet libero. Cras ut nisl eget justo finibus molestie. Quisque hendrerit,
+        turpis a accumsan finibus, felis diam hendrerit mauris, eget rhoncus tortor sapien ut
+        sapien. Suspendisse id diam consequat, molestie arcu sed, porta urna.</p><p>Curabitur gravida
+        ultrices nisi, sed dignissim ipsum. Fusce vel ultricies nulla.</p><p>Aliquam ut consectetur leo,
+        vel venenatis purus. Sed tempus, massa in feugiat tincidunt, orci metus sagittis ante, ut
+        tincidunt sem nulla sit amet risus. Morbi vehicula velit ligula, a fermentum nisi
+        auctor ac. Curabitur quis malesuada dui, sed vehicula lorem.</p>
+        ]]>
+    </string>
 </resources>

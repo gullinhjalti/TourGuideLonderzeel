@@ -32,7 +32,7 @@ public class SportsFragment extends Fragment {
         final ArrayList<Venue> venues = new ArrayList<>();
 
         //TODO: add venues here
-        venues.add(new Venue(R.drawable.sweet_vanilla, "Sweet Vanilla", "Ice cream, waffles, crepes,... €€", "Markt 17"));
+        venues.add(new Venue(R.drawable.sweet_vanilla, "Sweet Vanilla", "Ice cream, waffles, crepes,... €€", "Markt 17", getResources().getString(R.string.placeholder_long)));
 
         ListView listView = rootView.findViewById(R.id.list);
 
@@ -46,17 +46,18 @@ public class SportsFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Venue venue = venues.get(position);
                 String venueAdd = venue.getVenueAddress() + ", Londerzeel, Belgium";
-                showMap(venueAdd, venue.getVenueName());
+                showMap(venueAdd, venue.getVenueName(), venue.getVenueLongDesc());
             }
         });
 
         return rootView;
     }
 
-    public void showMap(String address, String name) {
+    public void showMap(String address, String name, String longDesc) {
         Intent intent = new Intent(getActivity(), MapsActivity.class);
         intent.putExtra(MainActivity.EXTRA_VENUE_ADDRESS, address);
         intent.putExtra(MainActivity.EXTRA_VENUE_NAME, name);
+        intent.putExtra(MainActivity.EXTRA_VENUE_LONG_DESC, longDesc);
         startActivity(intent);
     }
 
